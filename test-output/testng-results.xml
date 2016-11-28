@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13141" started-at="2016-11-28T04:50:59Z" finished-at="2016-11-28T04:51:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13141" started-at="2016-11-28T04:50:59Z" finished-at="2016-11-28T04:51:12Z">
+      <class name="com.elastic.FunctionalTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="12" started-at="2016-11-28T10:35:59Z" finished-at="2016-11-28T10:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="10297" started-at="2016-11-28T10:35:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-11-28T10:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2016-11-28T10:36:09Z" finished-at="2016-11-28T10:36:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.elastic.FunctionalTest.test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="test" duration-ms="2414" started-at="2016-11-28T10:36:09Z" finished-at="2016-11-28T10:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2016-11-28T10:36:12Z" finished-at="2016-11-28T10:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.elastic.FunctionalTest.test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2016-11-28T10:36:12Z" finished-at="2016-11-28T10:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.elastic.FunctionalTest.testFindByTagsName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindByTagsName()[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="testFindByTagsName" duration-ms="363" started-at="2016-11-28T10:36:12Z" finished-at="2016-11-28T10:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByTagsName -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-11-28T10:36:12Z" finished-at="2016-11-28T10:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.elastic.FunctionalTest.testFindByTagsName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.elastic.FunctionalTest@780cb77]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-11-28T10:36:12Z" finished-at="2016-11-28T10:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.elastic.FunctionalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

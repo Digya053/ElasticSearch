@@ -1,0 +1,51 @@
+buildscript {
+	ext {
+		springBootVersion = '1.4.2.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+jar {
+	baseName = 'elastic'
+	version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+compile('org.springframework.boot:spring-boot-starter-data-elasticsearch')
+	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+	compile('org.springframework.boot:spring-boot-starter-data-rest')
+	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.boot:spring-boot-starter-web')
+
+	// https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch
+	compile group: 'org.elasticsearch', name: 'elasticsearch', version: '1.7.0'
+	
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	testCompile("org.springframework.security:spring-security-test")
+
+	// https://mvnrepository.com/artifact/org.testng/testng
+	testCompile group: 'org.testng', name: 'testng', version: '6.9.13.6'
+	// https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured
+compile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0'
+	
+
+	
+	
+}
